@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="./cover.png" alt="XiaoJieAi 角色设定图：狐狸角色特写、无头服装正视图与完整背视图" width="100%">
+  <img src="./cover.png" alt="XiaoJieAigc 角色设定图：狐狸角色特写、无头服装正视图与完整背视图" width="100%">
 </p>
 
-<h1 align="center">角色设定图提示词 Skill</h1>
+<h1 align="center">XiaoJieAigc · 角色设定图提示词 Skill</h1>
 
 <p align="center"><strong>把一个角色想法，整理成可以直接拿去生图的完整提示词。</strong></p>
 <p align="center">人物 · 动物 · 拟人角色 · 机器人 · 幻想生物</p>
@@ -30,7 +30,7 @@
 安装或导入后，把下面这段话复制给支持 Skill 的 AI 工具：
 
 ```text
-使用 $character-sheet-prompt。
+使用 $xiaojieaigc-character-sheet-prompt。
 我想设计一个原创的狐狸快递员，三维动画风格，温暖、有亲和力。
 我没有参考图，请先帮我考虑外形、服装、鞋子与配饰。
 最终输出2K目标、16:9白底的角色设定图提示词。
@@ -40,7 +40,7 @@
 **有参考图？上传后这样说：**
 
 ```text
-使用 $character-sheet-prompt。
+使用 $xiaojieaigc-character-sheet-prompt。
 图1取脸和发型，图2取外套，图3取鞋子，不继承这些图的背景。
 裤子和配饰请你帮我搭，整体保持写实城市通勤风。
 先判断素材是否够用，再给我完整的角色生图提示词。
@@ -107,14 +107,14 @@
 **方式一：让支持仓库安装的工具帮你导入。**
 
 ```text
-请从这个GitHub仓库导入角色设定图提示词Skill：
-https://github.com/XiaoJieAi66/character-sheet-prompt
+请从这个GitHub仓库导入XiaoJieAigc角色设定图提示词Skill：
+https://github.com/XiaoJieAi66/XiaoJieAigc-character-sheet-prompt
 技能文件是根目录的SKILL.md。
 如果当前工具无法安装，请说明手动导入方法，不要声称安装成功。
 安装后，先了解我要做什么角色，以及有哪些参考素材。
 ```
 
-**方式二：手动下载。** 点击仓库上方的 **Code → Download ZIP**，解压后，将包含 `SKILL.md` 的 `character-sheet-prompt` 文件夹导入你使用的工具。具体导入入口以该工具说明为准。
+**方式二：手动下载。** 点击仓库上方的 **Code → Download ZIP**，解压后，先把技能文件夹重命名为 `xiaojieaigc-character-sheet-prompt`，再将包含 `SKILL.md` 的 `xiaojieaigc-character-sheet-prompt` 文件夹导入你使用的工具。具体导入入口以该工具说明为准。
 
 普通聊天工具没有 Skill 安装能力时，也可以把 [SKILL.md](./SKILL.md) 全文发给 AI 作为工作说明，再描述任务。
 
@@ -143,6 +143,6 @@ https://github.com/XiaoJieAi66/character-sheet-prompt
 
 ---
 
-**搭配使用：** [Seedance 2.5 视频提示词 Skill →](https://github.com/XiaoJieAi66/seedance-2-5-video-prompt)
+**搭配使用：** [Seedance 2.5 视频提示词 Skill →](https://github.com/XiaoJieAi66/XiaoJieAigc-seedance-2-5-video-prompt)
 
-<p align="center">由 <a href="https://github.com/XiaoJieAi66">XiaoJieAi</a> 整理 · 让角色想法更容易落地</p>
+<p align="center">由 <a href="https://github.com/XiaoJieAi66">XiaoJieAigc</a> 整理 · 让角色想法更容易落地</p>

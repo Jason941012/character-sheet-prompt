@@ -1,9 +1,9 @@
 ---
-name: character-sheet-prompt
+name: xiaojieaigc-character-sheet-prompt
 description: "通过需求引导、参考图分析和角色设计，输出可直接用于生图的角色设定图提示词。适用于人物、动物、拟人角色、机器人和幻想生物，默认2K、16:9白底，左40%头部特写，右60%无头正视图与保留后脑的背视图。"
 ---
 
-# 角色设定图提示词
+# XiaoJieAigc Character Sheet Prompt｜角色设定图提示词
 
 把用户零散的想法、已有角色图与服饰参考，整理成统一、可用于后续视频制作的角色设定图提示词。先帮助用户做设计判断，再交付完整提示词。最终产物是文字提示词，不自动提交生图任务。
 
